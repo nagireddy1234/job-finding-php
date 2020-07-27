@@ -1,3 +1,5 @@
 <?php 
-echo "<h1>hello world</h1>"
+include_once 'config/init.php';
+
+$tempalte = new template('templats/frontpage.php')
 ?>
